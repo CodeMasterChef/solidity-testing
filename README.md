@@ -1,8 +1,9 @@
 # Solidity Testing:
 It is important for testing Solidity smart contracts before deploying them in to mainnet. Because the smart contract code is immutable.
 
-We will use Assertion testing from NodeJS: https://nodejs.org/api/assert.html
+Truffle uses the [Mocha](https://mochajs.org/) testing framework and [Chai](https://www.chaijs.com/) for assertions to provide you with a solid framework from which to write your JavaScript tests.
 
+Example practises from homepage: https://www.trufflesuite.com/docs/truffle/testing/writing-tests-in-javascript
 # How to run:
 ## Compile smart contracts:
 ```bash
@@ -99,4 +100,4 @@ const simpleSmartContract = await SimpleSmartContract.deployed();
 ```
 deployed() DOES NOT deploy a contract by itself. It only return you a Javascript object pointing to an already deployed smart contract.
 
-The files in migrations folder are used to defined what should be deployed.
+The files in `migrations` folder are used to defined what should be deployed.
