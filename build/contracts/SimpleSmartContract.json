@@ -1,29 +1,29 @@
 {
   "contractName": "SimpleSmartContract",
   "abi": [],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/loya/Code/solidity-testing/contracts/SimpleSmartContract.sol\":\"SimpleSmartContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/loya/Code/solidity-testing/contracts/SimpleSmartContract.sol\":{\"keccak256\":\"0xa930f2eabba030f91dc208f3bd90fe32755efc67f16cae3d71b9f12e9af8b931\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1dbb2f367785923a179a08b3a2471b9e2447d349d5798786b0831ccb4b150ff1\",\"dweb:/ipfs/QmfAFnbJwuyKrbu33ViTwJnMpVbirZJZm2MicYqR598ZHV\"]}},\"version\":1}",
-  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220bbfe6e14ebb44db24e42c15e1693555ae2dbd9f0c27c11e520a57de20444d1c764736f6c63430008000033",
-  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220bbfe6e14ebb44db24e42c15e1693555ae2dbd9f0c27c11e520a57de20444d1c764736f6c63430008000033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/macos/Code/CodeForFun/solidity-samples/solidity-testing/contracts/SimpleSmartContract.sol\":\"SimpleSmartContract\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/macos/Code/CodeForFun/solidity-samples/solidity-testing/contracts/SimpleSmartContract.sol\":{\"keccak256\":\"0xa930f2eabba030f91dc208f3bd90fe32755efc67f16cae3d71b9f12e9af8b931\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1dbb2f367785923a179a08b3a2471b9e2447d349d5798786b0831ccb4b150ff1\",\"dweb:/ipfs/QmfAFnbJwuyKrbu33ViTwJnMpVbirZJZm2MicYqR598ZHV\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212204ad68ceae8947895f4e93a9d2f2026235661c51731dbbcc20b0f6c8bd86f3c9964736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212204ad68ceae8947895f4e93a9d2f2026235661c51731dbbcc20b0f6c8bd86f3c9964736f6c63430008000033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [],
-  "sourceMap": "57:33:2:-:0;;;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "57:33:2:-:0;;;;;",
+  "sourceMap": "57:33:3:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "57:33:3:-:0;;;;;",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract SimpleSmartContract {\n\n}",
-  "sourcePath": "/Users/loya/Code/solidity-testing/contracts/SimpleSmartContract.sol",
+  "sourcePath": "/Users/macos/Code/CodeForFun/solidity-samples/solidity-testing/contracts/SimpleSmartContract.sol",
   "ast": {
-    "absolutePath": "/Users/loya/Code/solidity-testing/contracts/SimpleSmartContract.sol",
+    "absolutePath": "/Users/macos/Code/CodeForFun/solidity-samples/solidity-testing/contracts/SimpleSmartContract.sol",
     "exportedSymbols": {
       "SimpleSmartContract": [
-        46
+        94
       ]
     },
-    "id": 47,
+    "id": 95,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 45,
+        "id": 93,
         "literals": [
           "solidity",
           "^",
@@ -31,7 +31,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "32:23:2"
+        "src": "32:23:3"
       },
       {
         "abstract": false,
@@ -39,32 +39,32 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 46,
+        "id": 94,
         "linearizedBaseContracts": [
-          46
+          94
         ],
         "name": "SimpleSmartContract",
         "nodeType": "ContractDefinition",
         "nodes": [],
-        "scope": 47,
-        "src": "57:33:2"
+        "scope": 95,
+        "src": "57:33:3"
       }
     ],
-    "src": "32:58:2"
+    "src": "32:58:3"
   },
   "legacyAST": {
-    "absolutePath": "/Users/loya/Code/solidity-testing/contracts/SimpleSmartContract.sol",
+    "absolutePath": "/Users/macos/Code/CodeForFun/solidity-samples/solidity-testing/contracts/SimpleSmartContract.sol",
     "exportedSymbols": {
       "SimpleSmartContract": [
-        46
+        94
       ]
     },
-    "id": 47,
+    "id": 95,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 45,
+        "id": 93,
         "literals": [
           "solidity",
           "^",
@@ -72,7 +72,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "32:23:2"
+        "src": "32:23:3"
       },
       {
         "abstract": false,
@@ -80,18 +80,18 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 46,
+        "id": 94,
         "linearizedBaseContracts": [
-          46
+          94
         ],
         "name": "SimpleSmartContract",
         "nodeType": "ContractDefinition",
         "nodes": [],
-        "scope": 47,
-        "src": "57:33:2"
+        "scope": 95,
+        "src": "57:33:3"
       }
     ],
-    "src": "32:58:2"
+    "src": "32:58:3"
   },
   "compiler": {
     "name": "solc",
@@ -101,12 +101,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x42678B80a186Ac68C06d31723CBaAA9d0a77696F",
-      "transactionHash": "0x2c476a4eed8f78f974939946d2cc03487748220fd08c518da1774f016c9a21a0"
+      "address": "0x63f72197be66C5aEe3CA9BF9e9370328905ffd9d",
+      "transactionHash": "0x5222e3337a7ad8634261942a6415da1ff37532897bb5ea8f11019ba6737c1f8c"
     }
   },
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-04-15T09:58:43.617Z",
+  "updatedAt": "2021-04-16T00:56:05.157Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
